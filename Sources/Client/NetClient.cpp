@@ -708,6 +708,7 @@ namespace spades {
 				case 3: return _Tr("NetClient", "Incompatible client protocol version.");
 				case 4: return _Tr("NetClient", "Server full");
 				case 10: return _Tr("NetClient", "You were kicked from this server.");
+				case 20: return _Tr("NetClient", "Invalid Name");
 				default: return _Tr("NetClient", "Unknown Reason");
 			}
 		}
